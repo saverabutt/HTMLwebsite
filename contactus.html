@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #edf2fa;
+        }
+
+        .navbar {
+            background-color: #f85606;
+            color: white;
+            list-style-type: none;
+            margin: 0px;
+            padding: 20px;
+            height: 20px;
+            text-align: center;
+
+        }
+
+        .navbar a {
+            color: white;
+            margin-top: 0px;
+            text-decoration-line: none;
+
+        }
+
+        .navbar li {
+            display: inline;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 0 20px;
+            border: solid 2px;
+            margin: auto;
+            padding: 20px 40px;
+        }
+        .footp{
+            text-align: center; 
+            margin-top: 70px;
+            background-color: #f85606;
+            color: white;
+            height:20px ;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="login.html">Login/Signup</a></li>
+    </ul>
+
+    <h2 style="text-align: center;">Submission Form</h2>
+
+    <form action="thankyou.html">
+
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">First Name *</label>
+                </td>
+                <td>
+                    <input style="border: ridge;" type="text" id="fname" name="fname" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="lname">Last Name *</label>
+                </td>
+                <td>
+                    <input style="border: ridge;" type="text" id="lname" name="lname" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="yes" name="choice" value="yes">
+                    <label for="yes">Male</label>
+                    <input type="radio" id="no" name="choice" value="no">
+                    <label for="no">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email *</label>
+                </td>
+                <td>
+                    <input style="border: ridge;" type="email" id="email" name="email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Country (Home)</label>
+                </td>
+                <td>
+                    <select id="country" name="country">
+                        <option value="select" selected>United States</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="china">China</option>
+                        <option value="india">India</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label>State (Home)</label>
+                </td>
+                <td>
+                    <select id="state" name="state">
+                        <option value="select" selected>&nbsp&nbsp- select -</option>
+                        <option value="punjab">Punjab</option>
+                        <option value="sindh">Sindh</option>
+                        <option value="delhi">Delhi</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="saddreess">Street Address (Home)</label>
+                </td>
+                <td>
+                    <input style="border: ridge; width: 170px;" type="address" id="address" name="address">
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td>
+                    <label for="city">City (Home)</label>
+                </td>
+                <td>
+                    <input style="border: ridge;" type="text" id="city" name="city">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Postalcode">Postal Code (Home)</label>
+                </td>
+                <td>
+                    <input style="border: ridge; width: 170px;" type="Number" id="postalcode" name="postalcode">
+                </td>
+            </tr>
+            
+            
+        </table>
+
+
+        <div style="text-align: center;">
+        <input style="border-radius: 10px; margin-top: 10px" type="submit" value="Save">&nbsp&nbsp&nbsp
+        <input style="border-radius: 10px; margin-top: 10px" type="button" value="Cancel">
+        </div>
+    </form>
+
+
+    <footer>
+        <p class="footp">All Copywrites are reserved 2024.</p>
+    </footer>
+</body>
+
+</html>

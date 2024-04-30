@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <style>
+        body {
+            background-color: #edf2fa;
+        }
+
+        .navbar {
+            background-color: #f85606;
+            color: white;
+            list-style-type: none;
+            margin: 0px;
+            padding: 20px;
+            height: 20px;
+            text-align: center;
+
+        }
+        .navbar a{
+            color: white;
+            margin-top: 0px;
+            text-decoration-line: none;
+
+        }
+        .navbar li{
+            display: inline;
+            padding: 20px;
+        }
+        .footp{
+            text-align: center; 
+            background-color: #f85606;
+            color: white;
+            height:20px ;
+            padding: 20px;
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 0 20px;
+            border: solid 2px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding: 20px 40px;
+        }
+        
+        .spset{
+            border-radius: 10px;
+            padding: 10px 30px 25px 30px !important ;
+            margin-left: 0px;
+            margin-top: 20px;
+            height: 30px; 
+            width: 310px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="login.html">Login/Signup</a></li>
+    </ul>
+
+    <h2 style="text-align: center;">Login Page</h2>
+
+    <form action="thankyou.html">
+
+        <table>
+            
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input style="border: ridge; height: 30px; width: 300px; " type="email" id="email" name="email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Password">Password</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input style="border: ridge; height: 30px; width: 300px;" type="password" id="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="spset"  type="submit" value="Login">
+                </td>
+            </tr>
+        </table>
+
+        
+        
+    </form>
+
+    <div style="margin: auto; border: 2px none; height: 200px; width: 500px; ">
+
+        <label style="padding-left: 140px;">Not a member?</label>
+
+        <a  style="padding-left: 10px;" href="signup.html">Create an account</a>
+    </div>
+
+
+
+
+    <footer>
+        <p class="footp">All Copywrites are reserved 2024.</p>
+    </footer>
+</body>
+</html>
